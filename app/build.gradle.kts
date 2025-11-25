@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id("com.android.library")
     alias(libs.plugins.kotlin.android)
     id("org.jetbrains.kotlin.plugin.compose")
 }
@@ -11,11 +11,9 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.satyasoft.composeuikits"
+       // applicationId = "com.satyasoft.composeuikits"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
