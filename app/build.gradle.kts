@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-       // applicationId = "com.satyasoft.composeuikits"
+      //  applicationId = "com.satyasoft.composeuikits"
         minSdk = 24
         targetSdk = 34
 
